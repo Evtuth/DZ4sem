@@ -14,7 +14,7 @@ int Sum(int A)
     return sum;
 }
 
-Console.WriteLine("Введите первое число: ");
+Console.WriteLine("Введите число: ");
 int A = Convert.ToInt32(Console.ReadLine());
 int sum = Sum(A);
 Console.WriteLine("Сумма цифр числа " + A + " равна " + sum);
